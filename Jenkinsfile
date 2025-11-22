@@ -30,7 +30,7 @@ pipeline {
 
         stage('Publish Image (optional)') {
             when {
-                expression { return env.BRANCH_NAME == "main" }
+                expression { return env.BRANCH_NAME == "master" }
             }
             steps {
                 // docker login -u $DOCKER_USER -p $DOCKER_PASS
