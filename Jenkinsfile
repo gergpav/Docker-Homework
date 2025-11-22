@@ -9,7 +9,9 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/gergpav/Docker-Homework.git'
+                git branch: 'master',
+				url: 'https://github.com/gergpav/Docker-Homework.git',
+				credentialsId: '0d791734-74dc-4d65-bbc3-76ebdb689ddb'
             }
         }
 
