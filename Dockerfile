@@ -4,7 +4,6 @@ WORKDIR /app
 
 # Копируем файлы приложения
 COPY app/main.py .
-COPY text.txt .
 
 # Команда для запуска приложения
 CMD ["python", "main.py"]
