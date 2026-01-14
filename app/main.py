@@ -1,1 +1,3 @@
-print("Hello, World!")
+print("=== Starting print ===")
+print("      Dockerfile      ")
+print("=== Ending print ===")
